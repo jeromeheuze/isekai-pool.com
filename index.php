@@ -142,6 +142,10 @@
                     Calculator
                     <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-zen-400 transition-all duration-300 group-hover:w-full"></span>
                 </a>
+                <a href="news.php" class="text-slate-300 hover:text-zen-400 transition-all duration-300 font-light text-lg relative group">
+                    News
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-zen-400 transition-all duration-300 group-hover:w-full"></span>
+                </a>
             </div>
             
             <!-- Mobile Menu Button -->
@@ -160,6 +164,7 @@
                 <a href="mining.php" class="block text-slate-300 hover:text-zen-400 transition-colors duration-300 font-light text-lg">Mining</a>
                 <a href="pools.php" class="block text-slate-300 hover:text-zen-400 transition-colors duration-300 font-light text-lg">Pools</a>
                 <a href="calculator.php" class="block text-slate-300 hover:text-zen-400 transition-colors duration-300 font-light text-lg">Calculator</a>
+                <a href="news.php" class="block text-slate-300 hover:text-zen-400 transition-colors duration-300 font-light text-lg">News</a>
             </div>
         </div>
     </nav>

@@ -4,14 +4,17 @@ Allow: /
 # Sitemap
 Sitemap: https://isekai-pool.com/sitemap.xml
 
-# Disallow admin areas (if any)
+# Disallow sensitive areas
 Disallow: /admin/
 Disallow: /private/
 Disallow: /includes/
 Disallow: /assets/js/
 Disallow: /assets/css/
+Disallow: /data/
+Disallow: /.htaccess
+Disallow: /sw.js
 
-# Allow important pages
+# Allow all main pages
 Allow: /index.php
 Allow: /about.php
 Allow: /mining.php
@@ -20,3 +23,14 @@ Allow: /calculator.php
 Allow: /wallets.php
 Allow: /faq.php
 Allow: /contact.php
+Allow: /news.php
+
+# Allow news articles
+Allow: /article.php
+
+# Allow utility pages
+Allow: /404.php
+Allow: /maintenance.php
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
