@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://isekai-pool.com/sitemap.xml
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /includes/
+Disallow: /assets/js/
+Disallow: /assets/css/
+
+# Allow important pages
+Allow: /index.php
+Allow: /about.php
+Allow: /mining.php
+Allow: /pools.php
+Allow: /calculator.php
+Allow: /wallets.php
+Allow: /faq.php
+Allow: /contact.php

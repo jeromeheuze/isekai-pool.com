@@ -1,0 +1,42 @@
+# Isekai Pool - Git Ignore File
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Backup files
+*.bak
+*.backup
+
+# Cache files
+cache/
+tmp/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Dependencies (if using package managers)
+node_modules/
+vendor/
+
+# Build files
+dist/
+build/
+
+# Local configuration overrides
+config.local.php
+settings.local.php
