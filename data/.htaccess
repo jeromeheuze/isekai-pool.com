@@ -1,3 +1,0 @@
-# Protect data directory
-Order Deny,Allow
-Deny from all
