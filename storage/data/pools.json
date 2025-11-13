@@ -1,0 +1,152 @@
+[
+  {
+    "slug": "yenten-rplant",
+    "coin": "yenten",
+    "name": "RPlant Yenten",
+    "homepage": "https://pool.rplant.xyz",
+    "region": "EU / NA",
+    "fee": "0.5%",
+    "payout_scheme": "PROP",
+    "min_payout": "2 YTN",
+    "hashtags": ["yenten", "yespower", "community"],
+    "connection": {
+      "stratum": "stratum+tcp://pool.rplant.xyz:5310",
+      "example": "cpuminer-avx2 -a yespowerr16 -o stratum+tcp://pool.rplant.xyz:5310 -u YTN_ADDRESS -p c=YTN"
+    },
+    "links": {
+      "discord": "https://discord.gg/RPlant",
+      "twitter": "https://twitter.com/rplantpool"
+    },
+    "status": {
+      "hashrate": "35.2 MH/s",
+      "miners": "142",
+      "last_block": "#2,123,451",
+      "last_updated": "15 min ago"
+    }
+  },
+  {
+    "slug": "raptoreum-flockpool",
+    "coin": "raptoreum",
+    "name": "FlockPool RTM",
+    "homepage": "https://www.flockpool.com",
+    "region": "Global",
+    "fee": "1%",
+    "payout_scheme": "PPLNS",
+    "min_payout": "250 RTM",
+    "hashtags": ["raptoreum", "ghostrider"],
+    "connection": {
+      "stratum": "stratum+tcp://raptoreum.flockpool.com:4444",
+      "example": "xmrig -o stratum+tcp://raptoreum.flockpool.com:4444 -u RTM_ADDRESS -p x"
+    },
+    "links": {
+      "discord": "https://discord.gg/flockpool",
+      "telegram": "https://t.me/flockpool_official"
+    },
+    "status": {
+      "hashrate": "128 GH/s",
+      "miners": "2,845",
+      "last_block": "#4,328,990",
+      "last_updated": "5 min ago"
+    }
+  },
+  {
+    "slug": "monero-supportxmr",
+    "coin": "monero",
+    "name": "SupportXMR",
+    "homepage": "https://supportxmr.com",
+    "region": "Worldwide",
+    "fee": "0.6%",
+    "payout_scheme": "PPLNS",
+    "min_payout": "0.1 XMR",
+    "hashtags": ["monero", "randomx", "privacy"],
+    "connection": {
+      "stratum": "stratum+tcp://pool.supportxmr.com:3333",
+      "example": "xmrig -o pool.supportxmr.com:3333 -u XMR_ADDRESS -p worker"
+    },
+    "links": {
+      "docs": "https://supportxmr.com/#getting_started",
+      "matrix": "https://matrix.to/#/#supportxmr:matrix.org"
+    },
+    "status": {
+      "hashrate": "820 MH/s",
+      "miners": "5,102",
+      "last_block": "#3,067,221",
+      "last_updated": "2 min ago"
+    }
+  },
+  {
+    "slug": "verus-ocommunity",
+    "coin": "verus",
+    "name": "OCommunity Verus",
+    "homepage": "https://veruspool.ocommunity.io",
+    "region": "Asia / EU",
+    "fee": "0.9%",
+    "payout_scheme": "PPLNS",
+    "min_payout": "5 VRSC",
+    "hashtags": ["verus", "verushash"],
+    "connection": {
+      "stratum": "stratum+tcp://veruspool.ocommunity.io:9999",
+      "example": "ccminer -a verus -o stratum+tcp://veruspool.ocommunity.io:9999 -u VRSC_ADDRESS -p c=VRSC"
+    },
+    "links": {
+      "discord": "https://discord.gg/verus",
+      "telegram": "https://t.me/veruscommunity"
+    },
+    "status": {
+      "hashrate": "14 GH/s",
+      "miners": "760",
+      "last_block": "#1,256,411",
+      "last_updated": "11 min ago"
+    }
+  },
+  {
+    "slug": "pulsar-icepool",
+    "coin": "pulsar",
+    "name": "IcePool Pulsar",
+    "homepage": "https://pulsar.icepool.xyz",
+    "region": "EU",
+    "fee": "1%",
+    "payout_scheme": "PROP",
+    "min_payout": "1,000 PLSR",
+    "hashtags": ["pulsar", "curvehash"],
+    "connection": {
+      "stratum": "stratum+tcp://pulsar.icepool.xyz:7000",
+      "example": "cpuminer-opt -a curvehash -o stratum+tcp://pulsar.icepool.xyz:7000 -u PLSR_ADDRESS -p c=PLSR"
+    },
+    "links": {
+      "discord": "https://discord.gg/pulsarcoin"
+    },
+    "status": {
+      "hashrate": "2.8 GH/s",
+      "miners": "210",
+      "last_block": "#822,112",
+      "last_updated": "22 min ago"
+    }
+  },
+  {
+    "slug": "dynex-mining",
+    "coin": "dynex",
+    "name": "Dynex Official Pool",
+    "homepage": "https://dnx.dynexcoin.org",
+    "region": "Global",
+    "fee": "2%",
+    "payout_scheme": "PPLNS",
+    "min_payout": "10 DNX",
+    "hashtags": ["dynex", "pow", "ai"],
+    "connection": {
+      "stratum": "stratum+tcp://dnx.dynexcoin.org:19666",
+      "example": "dynexsolve -o stratum+tcp://dnx.dynexcoin.org:19666 -u DNX_ADDRESS -p x"
+    },
+    "links": {
+      "docs": "https://docs.dynexcoin.org/mining",
+      "discord": "https://discord.gg/dynex"
+    },
+    "status": {
+      "hashrate": "980 GH/s",
+      "miners": "1,102",
+      "last_block": "#342,112",
+      "last_updated": "8 min ago"
+    }
+  }
+]
+
